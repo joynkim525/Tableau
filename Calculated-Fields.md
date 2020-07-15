@@ -13,4 +13,5 @@
 &nbsp;&nbsp; ex.문자 + 숫자\
 &nbsp;&nbsp; => Type Conversion Function 사용!
 - 구하고자 하는 값을 고려하여 계산의 순서 주의\
-&nbsp;&nbsp; ex. $SUM(a/b) != SUM(a)/SUM(b)$
+&nbsp;&nbsp; ex. SUM(a/b) != SUM(a)/SUM(b)
+- Aggregated Calculation이 View에 적용될 경우 **AGG()** 형태로 적용됨
