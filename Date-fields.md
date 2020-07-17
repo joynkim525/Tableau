@@ -1,4 +1,5 @@
-# Date Field 구분
+## Discrete and Continuous Time
+### Date Field 구분
 1. Date Part (Discrete)\
 &nbsp;&nbsp;- Year(2020), Quarter(Q3), Month(July), Day(13)\
 &nbsp;&nbsp;- Headers 생성 : 원하는 순서로 변경 가능\
@@ -23,6 +24,7 @@
 - 여러 개의 다양한 format의 Date field(YEAR, QUARTER, MONTH, DAY)를 추가할 경우 pane 생성
 &nbsp;&nbsp;-> pane: every segment is considered a Pane. In simple terms, Panes are partitions of the visualization created by the two innermost dimensions.
 
+## Custom Dates
 - Custom date 생성 : 기존 Date field에서 우클릭 - 생성(create) - Custom date
 - Custom date의 경우 계층이 생성되지 않음
 - View에 추가 시 같은 type(part/value)끼리는 replace가 가능하지만 part <-> value는 replace 불가하므로, View에서 삭제 후 추가
